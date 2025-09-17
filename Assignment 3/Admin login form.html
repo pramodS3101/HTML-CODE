@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register New Member</title>
+     <style>
+        div{
+            display: inline;
+            background-color: rgb(246, 214, 231);
+            width: 100%;
+            margin-top: 10px;
+            padding: 10px;
+            text-align: center; 
+            height: 40px;
+            display: block;
+            text-decoration: none;
+        }
+
+        nav,ul,li{
+            text-decoration: none;
+            display: inline;
+            margin: 10px;
+            padding: 30px;
+            font-size: 20px;
+            font-weight: bold;
+
+        }
+    </style>
+</head>
+<br>
+<header style="background-color: rgb(74, 73, 75);color:rgb(247, 236, 236); text-align: center;padding: 3px;" >
+
+        <h1>Institute Management Portal</h1>
+    </header>
+    <div>
+    <nav > 
+        <ul>
+            <li><a href="Adminlogin.html">Adminlogin</a></li>
+            <li><a href="RegisterMember.html">RegisterMember</a></li>
+            <li><a href="UpdateMember.html">UpdateMember</a></li>
+    </ul>
+</nav>
+</div>
+    <h1 style="text-align: center;">Register New Member</h1>
+        <hr>
+        <br>
+        <br>
+    <main>
+       <form style="text-align: center;">
+            <label>Full Name:</label>
+            <input type="text" name="name" size="31" ><br><br>
+
+            <label for="Email">Email:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="text" name="Email"size="31" ><br><br>
+
+            <label>Mobile No:</label>
+            <input type="mobile No"name="mobile NO" size="31"><br><br>
+
+            <label for="Gender">Gender:&nbsp;&nbsp&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="radio"  id="male" name="gender" value="male" >
+
+            <label for="Male">Male&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="radio"  id="Female" name="gender" value="Female">
+
+            <label for="Female">Female&nbsp;&nbsp;</label>
+            <input type="radio"  id="Female" name="gender" value="Female" >
+
+            <label for="Other">Other&nbsp;&nbsp;</label><br><br>
+            <label for="Address">Address:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="text"name="Address" size="31" style="height: 90px;"><br><br>
+
+            <label for="Destination">Destination:</label>
+            <select id="Destination" style="width: 240px;">
+                <option  value="Principle">Principle</option>
+                <option value="Teacher">Teacher</option>
+                <option value="Staff">Staff</option>
+
+
+
+            </select><br><br>
+            <label for="Department">Department:</label>
+            <select id="Destination" style="width: 240px;">
+                <option  value="Arts">Arts</option>
+                <option value="Commerce">Commerce</option>
+                <option value="Science">Science</option>
+                <option value="Account">Account</option>
+
+            </select><br><br><br><br>
+
+             <button type="button">Submit</button> 
+             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+             <button type="reset">Reset</button>   
+
+
+        </form>
+
+    </main>
+</body>
+</html
